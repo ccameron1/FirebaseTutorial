@@ -14,6 +14,7 @@
 		7A34AD8624BFCAAF00C8C619 /* FirebaseTutorial.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7A34AD8424BFCAAF00C8C619 /* FirebaseTutorial.xcdatamodeld */; };
 		7A34AD8824BFCAB200C8C619 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A34AD8724BFCAB200C8C619 /* Assets.xcassets */; };
 		7A34AD8B24BFCAB200C8C619 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A34AD8924BFCAB200C8C619 /* LaunchScreen.storyboard */; };
+		7A34AD9324BFCB8C00C8C619 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A34AD9224BFCB8C00C8C619 /* DataViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		7A34AD8724BFCAB200C8C619 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A34AD8A24BFCAB200C8C619 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A34AD8C24BFCAB200C8C619 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A34AD9224BFCB8C00C8C619 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				7A34AD7B24BFCAAF00C8C619 /* AppDelegate.swift */,
 				7A34AD7D24BFCAAF00C8C619 /* SceneDelegate.swift */,
 				7A34AD7F24BFCAAF00C8C619 /* ViewController.swift */,
+				7A34AD9224BFCB8C00C8C619 /* DataViewController.swift */,
 				7A34AD8124BFCAAF00C8C619 /* Main.storyboard */,
 				7A34AD8724BFCAB200C8C619 /* Assets.xcassets */,
 				7A34AD8924BFCAB200C8C619 /* LaunchScreen.storyboard */,
@@ -143,6 +146,7 @@
 			files = (
 				7A34AD8024BFCAAF00C8C619 /* ViewController.swift in Sources */,
 				7A34AD7C24BFCAAF00C8C619 /* AppDelegate.swift in Sources */,
+				7A34AD9324BFCB8C00C8C619 /* DataViewController.swift in Sources */,
 				7A34AD8624BFCAAF00C8C619 /* FirebaseTutorial.xcdatamodeld in Sources */,
 				7A34AD7E24BFCAAF00C8C619 /* SceneDelegate.swift in Sources */,
 			);
