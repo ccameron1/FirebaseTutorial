@@ -37,10 +37,18 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o6v-rc-5gU">
                                 <rect key="frame" x="123" y="711" width="169" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="GO!"/>
+                                <state key="normal" title="SignUp"/>
                                 <connections>
                                     <action selector="onGoPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vqH-wm-bdz"/>
                                     <segue destination="jmk-ub-9Kj" kind="show" id="li9-UJ-FC6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j8G-Dt-yDs">
+                                <rect key="frame" x="188" y="630" width="38" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Login"/>
+                                <connections>
+                                    <action selector="loginButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Kdb-da-ysa"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -50,6 +58,7 @@
                     <connections>
                         <outlet property="passwordTextField" destination="tcG-8U-oJo" id="geb-Dr-W0h"/>
                         <outlet property="usernameTextField" destination="T6Y-qw-RTZ" id="9gA-Fr-uPa"/>
+                        <segue destination="jmk-ub-9Kj" kind="show" identifier="loggedIn" id="cgx-6Z-Kf1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -85,4 +94,7 @@
             <point key="canvasLocation" x="928.98550724637687" y="107.8125"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="cgx-6Z-Kf1"/>
+    </inferredMetricsTieBreakers>
 </document>

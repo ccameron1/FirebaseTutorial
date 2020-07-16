@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import Firebase
+import FirebaseAuth
 
 class ViewController: UIViewController {
 
@@ -18,7 +20,27 @@ class ViewController: UIViewController {
     }
 
     @IBAction func onGoPressed(_ sender: Any) {
+        Auth.auth().createUser(withEmail: usernameTextField.text!, password: passwordTextField.text!) { authResult, error in
+          // ...
+        }
+        
     }
+    
+    @IBAction func loginButton(_ sender: Any) {
+        Auth.auth().signIn(withEmail: usernameTextField.text!, password: passwordTextField.text!) { [weak self] authResult, error in
+          guard let strongSelf = self else {
+            return }
+            if error != nil {
+                print(error.debugDescription)
+            }
+            else {
+                self!.performSegue(withIdentifier: "loggedIn", sender: nil)
+
+            }
+          // ...
+        }
+    }
+    
     
 }
 
