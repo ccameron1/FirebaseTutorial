@@ -15,8 +15,8 @@
 		7A34AD8824BFCAB200C8C619 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A34AD8724BFCAB200C8C619 /* Assets.xcassets */; };
 		7A34AD8B24BFCAB200C8C619 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A34AD8924BFCAB200C8C619 /* LaunchScreen.storyboard */; };
 		7A34AD9324BFCB8C00C8C619 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A34AD9224BFCB8C00C8C619 /* DataViewController.swift */; };
-		7A34AD9524BFCD4500C8C619 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7A34AD9424BFCD4500C8C619 /* GoogleService-Info.plist */; };
 		7F1E37164CC67D96D38A82B4 /* Pods_FirebaseTutorial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DFE8D2C3ED61048665446E5 /* Pods_FirebaseTutorial.framework */; };
+		B389162224BFD50600CCBAEE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B389162124BFD50600CCBAEE /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,7 +32,7 @@
 		7A34AD8A24BFCAB200C8C619 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A34AD8C24BFCAB200C8C619 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7A34AD9224BFCB8C00C8C619 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
-		7A34AD9424BFCD4500C8C619 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B389162124BFD50600CCBAEE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B5686E51BB6CA49B8AC37E99 /* Pods-FirebaseTutorial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseTutorial.debug.xcconfig"; path = "Target Support Files/Pods-FirebaseTutorial/Pods-FirebaseTutorial.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -87,7 +87,7 @@
 				7A34AD8924BFCAB200C8C619 /* LaunchScreen.storyboard */,
 				7A34AD8C24BFCAB200C8C619 /* Info.plist */,
 				7A34AD8424BFCAAF00C8C619 /* FirebaseTutorial.xcdatamodeld */,
-				7A34AD9424BFCD4500C8C619 /* GoogleService-Info.plist */,
+				B389162124BFD50600CCBAEE /* GoogleService-Info.plist */,
 			);
 			path = FirebaseTutorial;
 			sourceTree = "<group>";
@@ -161,8 +161,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A34AD8B24BFCAB200C8C619 /* LaunchScreen.storyboard in Resources */,
+				B389162224BFD50600CCBAEE /* GoogleService-Info.plist in Resources */,
 				7A34AD8824BFCAB200C8C619 /* Assets.xcassets in Resources */,
-				7A34AD9524BFCD4500C8C619 /* GoogleService-Info.plist in Resources */,
 				7A34AD8324BFCAAF00C8C619 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -367,6 +367,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = FirebaseTutorial/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -385,6 +386,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = FirebaseTutorial/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
